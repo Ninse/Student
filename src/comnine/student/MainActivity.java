@@ -1,7 +1,9 @@
 package comnine.student;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -24,12 +26,12 @@ public class MainActivity extends Activity {
 		Intent openMainActivity=new Intent("android.intent.action.Add");
 		startActivity(openMainActivity);    //打开添加界面
 		
-
+		
+  
 			}
 			});
-	
 	}
-    
+
 	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {

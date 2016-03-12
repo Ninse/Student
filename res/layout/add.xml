@@ -3,6 +3,46 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    
+
+    <Button  
+      android:id="@+id/insert"  
+        android:layout_width="fill_parent"  
+       android:layout_height="wrap_content"  
+        android:text="插入"/>  
+    <Button  
+       android:id="@+id/updataG"  
+       android:layout_width="fill_parent"  
+       android:layout_height="wrap_content"  
+        android:text="更新分数"/>  
+   <Button  
+       android:id="@+id/updataA"  
+       android:layout_width="fill_parent"  
+       android:layout_height="wrap_content"  
+       android:text="更新年龄"/>  
+   <Button  
+       android:id="@+id/delete"  
+       android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+      android:text="删除"/>  
+  <Button  
+        android:id="@+id/select"  
+       android:layout_width="fill_parent"  
+       android:layout_height="wrap_content"  
+       android:text="查找"/>  
+    <Button  
+        android:id="@+id/display"  
+       android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:text="显示当前数据库"/>  
+    <Button  
+        android:id="@+id/close"  
+       android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:text="关闭"/>  
+    <ListView   
+       android:id="@+id/listview"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"></ListView>  
+
 
 </LinearLayout>
