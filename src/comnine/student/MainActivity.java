@@ -25,14 +25,10 @@ public class MainActivity extends Activity {
 
 		Intent openMainActivity=new Intent("android.intent.action.Add");
 		startActivity(openMainActivity);    //打开添加界面
-		
-		
-  
 			}
 			});
 	}
 
-	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
