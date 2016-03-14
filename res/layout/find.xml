@@ -4,13 +4,23 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:text="  序号    姓名   学号   语文   数学   英语"
+        android:textSize="20sp" />
+
     <ListView
-        android:id="@+id/ListView1"
+        android:id="@+id/ListView"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_weight="0.51"
+        android:layout_weight="0.20"
+        android:textSize="20sp" 
         android:layout_x="4dp"
         android:layout_y="72dp" >
+        
 
     </ListView>
 

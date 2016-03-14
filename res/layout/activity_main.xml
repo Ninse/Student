@@ -24,7 +24,7 @@
         android:layout_alignRight="@+id/button1"
         android:layout_below="@+id/button1"
         android:layout_marginTop="41dp"
-        android:text="查询" />
+        android:text="显示" />
 
     <Button
         android:id="@+id/button3"

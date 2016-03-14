@@ -27,7 +27,7 @@ public final class R {
     public static final class id {
         public static final int Chinese=0x7f080009;
         public static final int English=0x7f08000d;
-        public static final int ListView1=0x7f080010;
+        public static final int ListView=0x7f080010;
         public static final int Math=0x7f08000b;
         public static final int Name=0x7f080005;
         public static final int Number=0x7f080007;

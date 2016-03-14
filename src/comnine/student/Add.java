@@ -63,8 +63,7 @@ public class Add extends Activity{
 			
 			@Override
 			public void onClick(View v) {
-				Intent openMainActivity=new Intent(".MainActivity");
-				startActivity(openMainActivity);    //回到主界面
+				 finish();
 				
 			}
 		});
