@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/ListView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="0.51"
+        android:layout_x="4dp"
+        android:layout_y="72dp" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="204dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="返回" />
+
+</LinearLayout>

@@ -27,10 +27,11 @@ public final class R {
     public static final class id {
         public static final int Chinese=0x7f080009;
         public static final int English=0x7f08000d;
+        public static final int ListView1=0x7f080010;
         public static final int Math=0x7f08000b;
         public static final int Name=0x7f080005;
         public static final int Number=0x7f080007;
-        public static final int action_settings=0x7f080010;
+        public static final int action_settings=0x7f080012;
         public static final int add=0x7f08000e;
         public static final int button1=0x7f080000;
         public static final int button2=0x7f080001;
@@ -42,10 +43,13 @@ public final class R {
         public static final int textView3=0x7f080008;
         public static final int textView4=0x7f08000a;
         public static final int textView5=0x7f08000c;
+        public static final int topTextView=0x7f080011;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int add=0x7f030001;
+        public static final int find=0x7f030002;
+        public static final int test=0x7f030003;
     }
     public static final class menu {
         public static final int main=0x7f070000;

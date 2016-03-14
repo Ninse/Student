@@ -13,20 +13,30 @@ import android.widget.Button;
 public class MainActivity extends Activity {
 
 	Button Add;
+	Button Find;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		Add=(Button)findViewById(R.id.button1);
+		Find=(Button)findViewById(R.id.button2);
 		
 		Add.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
 
 		Intent openMainActivity=new Intent("android.intent.action.Add");
-		startActivity(openMainActivity);    //打开添加界面
+		startActivity(openMainActivity);   
 			}
-			});
+			}); //打开添加界面
+		Find.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+
+		Intent openMainActivity=new Intent("android.intent.action.Find");
+		startActivity(openMainActivity);   
+			}
+			}); //打开查询界面
 	}
 
 	@Override

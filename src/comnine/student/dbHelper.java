@@ -6,6 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteDatabase.CursorFactory;
+import android.widget.Toast;
 
 public class dbHelper extends SQLiteOpenHelper {
 
@@ -58,8 +59,8 @@ public class dbHelper extends SQLiteOpenHelper {
 		cv.put(English, english);
 		long row=db.insert(TABLE_NAME, null, cv);
 		return row;
+		
 	}
-	
 	public void delete(int id)
 	{
 		SQLiteDatabase db=this.getWritableDatabase();
