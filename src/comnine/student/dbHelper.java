@@ -16,7 +16,7 @@ public class dbHelper extends SQLiteOpenHelper {
 	public final static String FIELD_ID="_id"; 
 	public final static String Name="Name";
 	public final static String Number="Number";
-	public final static String Math="Mach";
+	public final static String Math="Math";
 	public final static String English="English";
 	public final static String Chinese="Chinese";
 	public dbHelper(Context context)

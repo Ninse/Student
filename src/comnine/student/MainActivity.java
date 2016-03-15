@@ -14,12 +14,14 @@ public class MainActivity extends Activity {
 
 	Button Add;
 	Button Find;
+	Button Delect;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		Add=(Button)findViewById(R.id.button1);
 		Find=(Button)findViewById(R.id.button2);
+		Delect=(Button)findViewById(R.id.button3);
 		
 		Add.setOnClickListener(new View.OnClickListener() {
 			@Override
@@ -36,7 +38,16 @@ public class MainActivity extends Activity {
 		Intent openMainActivity=new Intent("android.intent.action.Find");
 		startActivity(openMainActivity);   
 			}
-			}); //打开查询界面
+			}); //打开显示界面
+		
+		Delect.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+
+		Intent openMainActivity=new Intent("android.intent.action.Delect");
+		startActivity(openMainActivity);   
+			}
+			}); //打开删除界面
 	}
 
 	@Override
