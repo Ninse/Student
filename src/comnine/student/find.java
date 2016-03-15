@@ -19,6 +19,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
@@ -42,6 +43,7 @@ public class find extends Activity implements OnClickListener{
 		// TODO 自动生成的方法存根
 
 		super.onCreate(savedInstanceState);
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.find);
 
 		Exi=(Button)findViewById(R.id.button1);
@@ -67,7 +69,7 @@ public class find extends Activity implements OnClickListener{
     }
 	 public void Display(){
 	    	List<String> list=new ArrayList<String>();
-	     	Cursor c = da.rawQuery("SELECT * FROM student", null);
+	     	Cursor c = da.rawQuery("SELECT * FROM student ", null);
 	       while (c.moveToNext()) {
 	        Student person = new Student();
 	       	person._id = c.getInt(c.getColumnIndex("_id"));

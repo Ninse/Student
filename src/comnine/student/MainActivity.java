@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 
 public class MainActivity extends Activity {
@@ -15,14 +16,16 @@ public class MainActivity extends Activity {
 	Button Add;
 	Button Find;
 	Button Delect;
+	Button Qurry;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.activity_main);
 		Add=(Button)findViewById(R.id.button1);
 		Find=(Button)findViewById(R.id.button2);
 		Delect=(Button)findViewById(R.id.button3);
-		
+		Qurry=(Button)findViewById(R.id.button4);
 		Add.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -48,6 +51,16 @@ public class MainActivity extends Activity {
 		startActivity(openMainActivity);   
 			}
 			}); //打开删除界面
+		
+		
+		Qurry.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+
+		Intent openMainActivity=new Intent("android.intent.action.Qurry");
+		startActivity(openMainActivity);   
+			}
+			}); //打开排序界面
 	}
 
 	@Override

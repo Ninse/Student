@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="  序号    姓名   学号   语文   数学   英语"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/ListView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="0.09"
+        android:layout_x="4dp"
+        android:layout_y="72dp"
+        android:textSize="20sp" >
+    </ListView>
+
+    <Button
+        android:id="@+id/chinese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="clip_horizontal"
+        android:text="按语文成绩排序" />
+
+    <Button
+        android:id="@+id/math"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="按数学成绩排序" />
+
+    <Button
+        android:id="@+id/english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="按英语成绩排序" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.00"
+        android:text="返回" />
+
+</LinearLayout>

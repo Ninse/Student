@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.Window;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -31,6 +32,7 @@ public class delect extends Activity implements OnClickListener{
 		// TODO 自动生成的方法存根
 
 		super.onCreate(savedInstanceState);
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.delect);
 		Exi=(Button)findViewById(R.id.button1);
 		Del=(Button)findViewById(R.id.button2);
