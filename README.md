@@ -1,4 +1,4 @@
-# Student
+# 学生成绩管理系统（Android）
 安卓版本学生成绩管理系统
 采用Sqlite数据库连接
 
