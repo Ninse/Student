@@ -1,6 +1,7 @@
 # Student
 安卓版本学生成绩管理系统
 采用Sqlite数据库连接
+
 本系统荣获：
   史上最丑UI界面奖
 没有之一
@@ -12,7 +13,6 @@
 一切盗用行文
 将坚决不追究法律责任
 
-检测到中文英语
 
 The Android version of student achievement management system
 
