@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/windows2"
     android:orientation="vertical" >
 
     <TextView
@@ -9,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.03"
+        android:textColor="#ffffff"
         android:text="  序号    姓名   学号   语文   数学   英语"
         android:textSize="20sp" />
 
@@ -16,6 +18,7 @@
         android:id="@+id/ListView"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:textColor="#ffffff"
         android:layout_weight="0.20"
         android:textSize="20sp" 
         android:layout_x="4dp"
@@ -29,6 +32,7 @@
         android:layout_width="204dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
+        android:textColor="#ffffff"
         android:text="返回" />
 
 </LinearLayout>

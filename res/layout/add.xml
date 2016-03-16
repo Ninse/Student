@@ -2,12 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/windows2"
     android:orientation="vertical" >
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#ffffff"
         android:text="姓名：" />
 
     <EditText
@@ -16,12 +18,14 @@
         android:layout_height="wrap_content"
         android:layout_gravity="right"
         android:ems="10"
+        android:textColor="#ffffff"
         android:textSize="18sp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#ffffff"
         android:text="学号" />
 
     <EditText
@@ -30,6 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="right"
         android:numeric="integer"
+        android:textColor="#ffffff"
         android:ems="10"
         android:textSize="18sp" />
 
@@ -37,6 +42,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#ffffff"
         android:text="语文成绩：" />
 
     <EditText
@@ -45,12 +51,14 @@
         android:layout_height="wrap_content"
         android:layout_gravity="right"
         android:numeric="integer"
+        android:textColor="#ffffff"
         android:ems="10"
         android:textSize="18sp" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
+        android:textColor="#ffffff"
         android:layout_height="wrap_content"
         android:text="数学成绩：" />
 
@@ -59,6 +67,7 @@
         android:layout_width="380px"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
+        android:textColor="#ffffff"
         android:numeric="integer"
         android:ems="10"
         android:textSize="18sp" />
@@ -67,6 +76,7 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#ffffff"
         android:text="英语成绩：" />
 
     <EditText
@@ -74,6 +84,7 @@
         android:layout_width="380px"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
+        android:textColor="#ffffff"
         android:numeric="integer"
         android:ems="10"
         android:textSize="18sp" />
@@ -82,12 +93,14 @@
         android:id="@+id/add"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="#ffffff"
         android:text="添加" />
 
     <Button
         android:id="@+id/exit"
         android:layout_width="match_parent"
         android:layout_height="48dip"
+        android:textColor="#ffffff"
         android:text="返回" />
 
 </LinearLayout>
